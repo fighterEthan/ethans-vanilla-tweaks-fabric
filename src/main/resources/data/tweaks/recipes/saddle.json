@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#L#",
+    "i i"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:leather"
+    },
+    "L": {
+      "item": "minecraft:lead"
+    },
+    "i": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "minecraft:saddle",
+    "count": 1
+  }
+}
