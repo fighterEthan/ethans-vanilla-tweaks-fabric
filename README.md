@@ -1,9 +1,19 @@
-# Fabric Example Mod
+# Ethan's Vanilla Tweaks
 
-## Setup
+## Dependencies
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
+At the moment, EVT requires only Fabric API.
 
 ## License
 
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+EVT is licensed under the MIT License.
+
+## FAQ
+
+**Will this mod be ported to Forge?**
+
+I do not have plans to do so. Please contact me if you are willing to do this, but at the moment, I have no intent of stepping into forge.
+
+**Will this mod be updated to newer/older versions?**
+
+Yes! I have plans to backport this to 1.17.1.
