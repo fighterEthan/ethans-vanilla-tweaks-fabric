@@ -29,9 +29,7 @@ public class tweaks implements ModInitializer {
 	public static final Logger LOGGER = LoggerFactory.getLogger("tweaks");
 
 	@Override
-	public void onInitialize() {
-
-
-		LOGGER.info("Hello Fabric world!");
+			public void onInitialize() {
+	LOGGER.info("Hello Fabric world!");
 	}
 }
