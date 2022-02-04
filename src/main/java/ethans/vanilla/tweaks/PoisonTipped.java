@@ -8,22 +8,22 @@ import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
 
-public class ShulkersEssence extends Enchantment {
-    public ShulkersEssence() {
-        super(Enchantment.Rarity.RARE, EnchantmentTarget.WEAPON, new EquipmentSlot[] {EquipmentSlot.MAINHAND});
+public class PoisonTipped extends Enchantment {
+    public PoisonTipped() {
+        super(Enchantment.Rarity.UNCOMMON, EnchantmentTarget.WEAPON, new EquipmentSlot[] {EquipmentSlot.MAINHAND});
     }
     @Override
     public int getMinPower(int level) {
-        return 1;
+        return 2;
     }
     @Override
     public int getMaxLevel() {
-        return 3;
+        return 2;
     }
     @Override
     public void onTargetDamaged(LivingEntity user, Entity target, int level) {
         if(target instanceof LivingEntity) {
-            ((LivingEntity) target).addStatusEffect(new StatusEffectInstance(StatusEffects.LEVITATION, 20 * 1 * level, level - 1));
+            ((LivingEntity) target).addStatusEffect(new StatusEffectInstance(StatusEffects.POISON, 20 * 5 * level, level - 1));
         }
 
         super.onTargetDamaged(user, target, level);

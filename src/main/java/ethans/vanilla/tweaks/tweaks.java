@@ -24,6 +24,11 @@ public class tweaks implements ModInitializer {
 			new Identifier("tweaks", "leech"),
 			new Leech()
 	);
+	private static Enchantment POISONTIPPED = Registry.register(
+			Registry.ENCHANTMENT,
+			new Identifier("tweaks", "poison_tipped"),
+			new PoisonTipped()
+	);
 
 
 	public static final Logger LOGGER = LoggerFactory.getLogger("tweaks");
