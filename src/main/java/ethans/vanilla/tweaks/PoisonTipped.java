@@ -28,5 +28,4 @@ public class PoisonTipped extends Enchantment {
 
         super.onTargetDamaged(user, target, level);
     }
-
 }
