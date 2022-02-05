@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "tweaks",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Ethan's Vanilla Tweaks",
+  "description": "Completely overhauls vanilla minecraft! A work in progress mod.",
   "authors": [
-    "Me!"
+    "fighter_Ethan"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
@@ -14,7 +14,7 @@
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/tweaks/icon.png",
 
   "environment": "*",
   "entrypoints": {
