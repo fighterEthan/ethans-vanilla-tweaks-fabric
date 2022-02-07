@@ -25,7 +25,6 @@ public class PoisonTipped extends Enchantment {
         if(target instanceof LivingEntity) {
             ((LivingEntity) target).addStatusEffect(new StatusEffectInstance(StatusEffects.POISON, 20 * 5 * level, level - 1));
         }
-
         super.onTargetDamaged(user, target, level);
     }
 }
