@@ -29,7 +29,6 @@ public class Medusa extends Enchantment {
         if (target instanceof LivingEntity) {
             ((LivingEntity) target).addStatusEffect(new StatusEffectInstance(StatusEffects.SLOWNESS, 20 * 2 * level,  100));
         }
-
         super.onTargetDamaged(user, target, level);
     }
 }
