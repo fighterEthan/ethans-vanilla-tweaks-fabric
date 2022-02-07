@@ -30,7 +30,6 @@ public class tweaks implements ModInitializer {
 			new PoisonTipped()
 	);
 
-
 	public static final Logger LOGGER = LoggerFactory.getLogger("tweaks");
 
 	@Override
