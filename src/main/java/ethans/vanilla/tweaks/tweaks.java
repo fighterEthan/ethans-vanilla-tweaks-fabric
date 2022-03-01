@@ -29,11 +29,20 @@ public class tweaks implements ModInitializer {
 			new Identifier("tweaks", "poison_tipped"),
 			new PoisonTipped()
 	);
+	private static Enchantment RABBITBOOST = Registry.register(
+			Registry.ENCHANTMENT,
+			new Identifier("tweaks", "rabbits_jump"),
+			new RabbitBoost()
+	);
 
 	public static final Logger LOGGER = LoggerFactory.getLogger("tweaks");
 
 	@Override
+
 			public void onInitialize() {
 	LOGGER.info("Hello Fabric world!");
+
 	}
+
 }
+
